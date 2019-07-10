@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F93EC2422CD12690047636B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F93EC2322CD12690047636B /* AppDelegate.swift */; };
+		1F93EC2622CD12690047636B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F93EC2522CD12690047636B /* SceneDelegate.swift */; };
+		1F93EC2822CD12690047636B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F93EC2722CD12690047636B /* ViewController.swift */; };
+		1F93EC2D22CD126B0047636B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F93EC2C22CD126B0047636B /* Assets.xcassets */; };
+		1F93EC3022CD126B0047636B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F93EC2E22CD126B0047636B /* LaunchScreen.storyboard */; };
+		1F93EC3B22CD126C0047636B /* NFCWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F93EC3A22CD126C0047636B /* NFCWriterTests.swift */; };
+		1F93EC7522CE1D370047636B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F93EC7422CE1D370047636B /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F93EC3722CD126C0047636B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F93EC1822CD12690047636B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F93EC1F22CD12690047636B;
+			remoteInfo = NFCWriter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F93EC2022CD12690047636B /* NFCWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F93EC2322CD12690047636B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F93EC2522CD12690047636B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F93EC2722CD12690047636B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F93EC2C22CD126B0047636B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F93EC2F22CD126B0047636B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F93EC3122CD126B0047636B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F93EC3622CD126C0047636B /* NFCWriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCWriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F93EC3A22CD126C0047636B /* NFCWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWriterTests.swift; sourceTree = "<group>"; };
+		1F93EC3C22CD126C0047636B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F93EC7322CE134E0047636B /* NFCWriter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFCWriter.entitlements; sourceTree = "<group>"; };
+		1F93EC7422CE1D370047636B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F93EC1D22CD12690047636B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F93EC3322CD126C0047636B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F93EC1722CD12690047636B = {
+			isa = PBXGroup;
+			children = (
+				1F93EC2222CD12690047636B /* NFCWriter */,
+				1F93EC3922CD126C0047636B /* NFCWriterTests */,
+				1F93EC2122CD12690047636B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F93EC2122CD12690047636B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F93EC2022CD12690047636B /* NFCWriter.app */,
+				1F93EC3622CD126C0047636B /* NFCWriterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F93EC2222CD12690047636B /* NFCWriter */ = {
+			isa = PBXGroup;
+			children = (
+				1F93EC7322CE134E0047636B /* NFCWriter.entitlements */,
+				1F93EC2322CD12690047636B /* AppDelegate.swift */,
+				1F93EC7422CE1D370047636B /* ContentView.swift */,
+				1F93EC2522CD12690047636B /* SceneDelegate.swift */,
+				1F93EC2722CD12690047636B /* ViewController.swift */,
+				1F93EC2C22CD126B0047636B /* Assets.xcassets */,
+				1F93EC2E22CD126B0047636B /* LaunchScreen.storyboard */,
+				1F93EC3122CD126B0047636B /* Info.plist */,
+			);
+			path = NFCWriter;
+			sourceTree = "<group>";
+		};
+		1F93EC3922CD126C0047636B /* NFCWriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F93EC3A22CD126C0047636B /* NFCWriterTests.swift */,
+				1F93EC3C22CD126C0047636B /* Info.plist */,
+			);
+			path = NFCWriterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F93EC1F22CD12690047636B /* NFCWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F93EC3F22CD126C0047636B /* Build configuration list for PBXNativeTarget "NFCWriter" */;
+			buildPhases = (
+				1F93EC1C22CD12690047636B /* Sources */,
+				1F93EC1D22CD12690047636B /* Frameworks */,
+				1F93EC1E22CD12690047636B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFCWriter;
+			productName = NFCWriter;
+			productReference = 1F93EC2022CD12690047636B /* NFCWriter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F93EC3522CD126C0047636B /* NFCWriterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F93EC4222CD126C0047636B /* Build configuration list for PBXNativeTarget "NFCWriterTests" */;
+			buildPhases = (
+				1F93EC3222CD126C0047636B /* Sources */,
+				1F93EC3322CD126C0047636B /* Frameworks */,
+				1F93EC3422CD126C0047636B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F93EC3822CD126C0047636B /* PBXTargetDependency */,
+			);
+			name = NFCWriterTests;
+			productName = NFCWriterTests;
+			productReference = 1F93EC3622CD126C0047636B /* NFCWriterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F93EC1822CD12690047636B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Bartlomiej Woronin";
+				TargetAttributes = {
+					1F93EC1F22CD12690047636B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					1F93EC3522CD126C0047636B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 1F93EC1F22CD12690047636B;
+					};
+				};
+			};
+			buildConfigurationList = 1F93EC1B22CD12690047636B /* Build configuration list for PBXProject "NFCWriter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F93EC1722CD12690047636B;
+			productRefGroup = 1F93EC2122CD12690047636B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F93EC1F22CD12690047636B /* NFCWriter */,
+				1F93EC3522CD126C0047636B /* NFCWriterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F93EC1E22CD12690047636B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F93EC3022CD126B0047636B /* LaunchScreen.storyboard in Resources */,
+				1F93EC2D22CD126B0047636B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F93EC3422CD126C0047636B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F93EC1C22CD12690047636B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F93EC2822CD12690047636B /* ViewController.swift in Sources */,
+				1F93EC2422CD12690047636B /* AppDelegate.swift in Sources */,
+				1F93EC7522CE1D370047636B /* ContentView.swift in Sources */,
+				1F93EC2622CD12690047636B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F93EC3222CD126C0047636B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F93EC3B22CD126C0047636B /* NFCWriterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F93EC3822CD126C0047636B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F93EC1F22CD12690047636B /* NFCWriter */;
+			targetProxy = 1F93EC3722CD126C0047636B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F93EC2E22CD126B0047636B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F93EC2F22CD126B0047636B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F93EC3D22CD126C0047636B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F93EC3E22CD126C0047636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F93EC4022CD126C0047636B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NFCWriter/NFCWriter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZN6RNT6RW;
+				INFOPLIST_FILE = NFCWriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swifting.NFCWriter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F93EC4122CD126C0047636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NFCWriter/NFCWriter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZN6RNT6RW;
+				INFOPLIST_FILE = NFCWriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swifting.NFCWriter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F93EC4322CD126C0047636B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZN6RNT6RW;
+				INFOPLIST_FILE = NFCWriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swifting.NFCWriterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCWriter.app/NFCWriter";
+			};
+			name = Debug;
+		};
+		1F93EC4422CD126C0047636B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZN6RNT6RW;
+				INFOPLIST_FILE = NFCWriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swifting.NFCWriterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCWriter.app/NFCWriter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F93EC1B22CD12690047636B /* Build configuration list for PBXProject "NFCWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F93EC3D22CD126C0047636B /* Debug */,
+				1F93EC3E22CD126C0047636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F93EC3F22CD126C0047636B /* Build configuration list for PBXNativeTarget "NFCWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F93EC4022CD126C0047636B /* Debug */,
+				1F93EC4122CD126C0047636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F93EC4222CD126C0047636B /* Build configuration list for PBXNativeTarget "NFCWriterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F93EC4322CD126C0047636B /* Debug */,
+				1F93EC4422CD126C0047636B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F93EC1822CD12690047636B /* Project object */;
+}
